@@ -7,9 +7,9 @@ const atm = n => {
     let twenty = Math.floor(rest / 20);
     rest = rest % 20;
     let ten = Math.floor(rest / 10);
-    console.log(`When I withdraw ${num} i will get \n ${hundred}  times hundred \n ${fifty} times fifty \n ${twenty} times twenty and \n ${ten} times ten`);
+    console.log(`When I withdraw ${num} i will get: \n ${hundred} - times hundred \n ${fifty} - times fifty \n ${twenty} - times twenty and \n ${ten} - times ten`);
 }
 
-atm(1680);
+atm(480);
 
 // number - (hundred * 100)
